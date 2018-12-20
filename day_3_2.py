@@ -1,6 +1,6 @@
 p = '/Users/bacchus/Documents/Code/coding-challenges/:r:codefoo/AdventOfCode/InputFiles/day_3.txt'
 
-def map_claims(p):
+def non_overlapping_claims(p):
     vertex_vals = {}
     non_overlapped_index = {}
     total_overlap = 0
@@ -29,4 +29,4 @@ def map_claims(p):
                         vertex_vals[dict_index] = id
     print(non_overlapped_index)
 
-map_claims(p)
+non_overlapping_claims(p)
